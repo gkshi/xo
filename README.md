@@ -2,4 +2,4 @@
 
 > Игра с режимом против бота
 
-Живое демо [здесь](http://vuejs-templates.github.io/webpack/)
+Живое демо [здесь](https://gkshi.github.io/#/post/xo)
