@@ -59,7 +59,8 @@
 
         gameMode: 'with_bot', // with_bot, with_user
         gameStatus: 'turn', // turn, draw, win
-        gameWinCombination: null, gameStarter: 'x', // x, o
+        gameWinCombination: null,
+        gameStarter: 'x', // x, o
 
         cells: {
           1: '', 2: '', 3: '', 4: '', 5: '', 6: '', 7: '', 8: '', 9: ''
@@ -371,7 +372,7 @@
 
       getButtonClass () {
         let className = 'button'
-        this.gameStatus === 'win' ? className += ` button--active` : ''
+        this.gameStatus !== 'turn' ? className += ` button--active` : ''
         return className
       },
 
